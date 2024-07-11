@@ -1,3 +1,11 @@
+# Automated Email Account Creation Script
+# Author: Abdulrahim Yousuf
+# Contact: me@obaydev1.com
+# GitHub: https://github.com/z14i/automated-email-creation
+#
+# This Python script automates the process of creating email accounts on a cPanel interface using Selenium WebDriver.
+# For usage instructions, please refer to the README.md file in the project repository.
+#
 import time
 import pandas as pd
 from selenium import webdriver
