@@ -33,7 +33,7 @@ excel_file = 'names.xlsx'  # Replace with your Excel file path
 df = pd.read_excel(excel_file)
 
 # Open the URL
-url = 'https://omanadventures.com:2083/cpsess2144229727/frontend/jupiter/email_accounts/index.html#/list'
+url = 'https://[yourdomain]:2083/cpsess2144229727/frontend/jupiter/email_accounts/index.html#/list'
 driver.get(url)
 
 # Find the input fields and enter credentials
