@@ -38,10 +38,10 @@ driver.get(url)
 
 # Find the input fields and enter credentials
 input_field_user = driver.find_element(By.ID, 'user')
-input_field_user.send_keys('omanadventures')
+input_field_user.send_keys('cpaneluser')
 
 input_field_pass = driver.find_element(By.ID, 'pass')
-input_field_pass.send_keys('7D5KZ@{af_&D')
+input_field_pass.send_keys('cpanelpass')
 
 # Click the login button
 login_button = driver.find_element(By.ID, 'login_submit')
